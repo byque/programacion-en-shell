@@ -10,3 +10,8 @@
 texto='¡Hola mundo!'
 TEXTO_FIJO='Constante'
 echo $texto $TEXTO_FIJO
+
+num1=54
+echo 'Echo requiere "" para imprimir variables'
+echo '$num1 con' "''"
+echo "$num1 con \"\""
